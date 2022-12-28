@@ -59,3 +59,13 @@ Check code in github repos
 # Back to project tab
 1. Select project - Build Now
 2. View console log
+
+
+# Test for build error - test part
+# Remove void from
+
+`@Test
+public void contextLoads() {
+log.info("Test case executing...");
+assertEquals(true, true);`
+}
