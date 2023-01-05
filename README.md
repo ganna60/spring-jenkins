@@ -56,16 +56,32 @@ Check code in github repos
 18. Post-Build Actions - E-mail Notification - Recipients: adria60@gmail.com
 19. Apply
 
-# Back to project tab
+#### Back to project tab
 1. Select project - Build Now
 2. View console log
 
 
-# Test for build error - test part
-# Remove void from
+#### Test for build error - test part
+Remove void from:
 
 `@Test
 public void contextLoads() {
 log.info("Test case executing...");
 assertEquals(true, true);`
 }
+
+The build failed (started automatically after git push - job configured like that)
+
+Dashboard > Manage Jenkins > Configure System
+Configure System
+E-mail Notification 
+SMTP server     smtp.gmail.com
+
+E-mail suffix:  @gmail.com
+
+Username jaca.stupar@gmail.com
+Password:
+
+Reply-to: adria60@gmail.com
+
+Test configuration by sending test e-mail
