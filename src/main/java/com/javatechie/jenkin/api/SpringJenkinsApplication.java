@@ -25,6 +25,7 @@ public class SpringJenkinsApplication {
 	}
 	public static void main(String[] args) {
 		log.info("*** Application executed...");
+		log.info("*** Application executed 2...");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
