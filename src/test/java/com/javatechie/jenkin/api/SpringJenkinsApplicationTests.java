@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @Slf4j
-@RunWith(Spring.Runner.class) for JUnit 4
+//@RunWith(Spring.Runner.class) for JUnit 4
 @SpringBootTest
 public class SpringJenkinsApplicationTests {
 
 	@Test
-	public  contextLoads() {
+	public void contextLoads() {
 		log.info("Test case executing...");
 		assertEquals(true, true);
 	}
