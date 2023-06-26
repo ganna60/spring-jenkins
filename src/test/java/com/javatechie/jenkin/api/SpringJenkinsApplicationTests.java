@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class SpringJenkinsApplicationTests {
 
 	@Test
-	public contextLoads() {
+	public void contextLoads() {
 		log.info("Test case executing...");
 		log.info("Test case executing...2");
 		assertEquals(true, true);
